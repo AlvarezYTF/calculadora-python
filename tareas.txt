@@ -1,0 +1,54 @@
+Roles y Tareas:
+1. Camilo (Base de Datos y Lógica Matemática)
+•	Responsabilidades:
+o	Crear las clases para representar las operaciones y el historial.
+o	Implementar la lógica matemática (suma, resta, multiplicación, división, etc.).
+o	Diseñar el modelo de datos para el historial en una base de datos SQLite.
+o	Implementar métodos para guardar y consultar el historial.
+•	Requisitos técnicos:
+o	Conocimiento de POO para crear clases bien estructuradas.
+o	Experiencia con SQLite o bibliotecas de bases de datos en Python.
+•	Entregables:
+o	Clases que realicen las operaciones matemáticas.
+o	Métodos CRUD para la base de datos (guardar y consultar historial).
+________________________________________
+2. Camacho (Flujo y Coordinación)
+•	Responsabilidades:
+o	Implementar el flujo de la calculadora en consola.
+o	Gestionar la interacción con el usuario: leer entradas, ejecutar operaciones y mostrar resultados.
+o	Conectar la lógica matemática y la base de datos con el menú de consola.
+•	Requisitos técnicos:
+o	Experiencia con manejo de entradas y salidas en consola.
+o	Conocimiento del patrón MVC para organizar el flujo entre modelo y vista.
+•	Entregables:
+o	Menú interactivo en consola.
+o	Métodos para manejar las opciones del usuario y llamar a los métodos del modelo.
+________________________________________
+3. Jeferson (Persistencia y Reporte)
+•	Responsabilidades:
+o	Diseñar las consultas a la base de datos para mostrar el historial en consola.
+o	Crear funciones que permitan al usuario ver el historial de operaciones.
+o	Garantizar que el historial esté ordenado y sea legible.
+•	Requisitos técnicos:
+o	Experiencia con SQLite y manejo de bases de datos en Python.
+o	Conocimiento básico de formateo de texto en consola.
+•	Entregables:
+o	Función para listar el historial de operaciones.
+o	Métodos para borrar historial si es necesario.
+________________________________________
+Plan de Trabajo:
+1.	Definición inicial (Todos):
+o	Decidir las operaciones que incluirá la calculadora.
+o	Diseñar el esquema de la base de datos: qué campos tendrá (fecha, operación, resultado).
+o	Establecer el flujo del menú en consola.
+2.	Desarrollo Individual:
+o	Modelo: Crear las clases para operaciones y conexión con la base de datos.
+o	Controlador: Desarrollar el menú de consola y la interacción entre usuario y modelo.
+o	Historial: Crear las funciones para guardar, consultar y formatear el historial.
+3.	Integración y Pruebas (Todos):
+o	Conectar las funciones del modelo con el controlador.
+o	Validar que las operaciones se ejecuten correctamente y que el historial se guarde y consulte adecuadamente.
+o	Probar casos como divisiones por cero, entradas inválidas, etc.
+4.	Finalización (Todos):
+o	Documentar el código y explicar cómo usar la calculadora.
+o	Hacer pruebas finales para asegurar la funcionalidad completa.
