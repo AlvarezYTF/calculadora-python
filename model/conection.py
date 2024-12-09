@@ -10,7 +10,7 @@ class Conection:
                 user="root",
                 password="",
                 database="calculator",
-                charset="utf8mb4"
+                charset="utf8mb4",
             )
             if not self.conn.is_connected():
                 raise Error("No se pudo establecer la conexión.")
